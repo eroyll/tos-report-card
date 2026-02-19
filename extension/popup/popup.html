@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOS Report Card</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="header-content">
+      <span class="logo">🎓 TOS Report Card</span>
+    </div>
+  </div>
+
+  <!-- Loading State -->
+  <div id="loading-state" class="state" style="display: none;">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Analyzing legal document...</p>
+  </div>
+
+  <!-- Error State -->
+  <div id="error-state" class="state" style="display: none;">
+    <div class="error-icon">⚠️</div>
+    <h3 class="error-title">Unable to Analyze</h3>
+    <p class="error-message" id="error-message"></p>
+    <button id="btn-try-manual" class="btn-secondary">Analyze Different URL</button>
+  </div>
+
+  <!-- Results State -->
+  <div id="results-state" class="state" style="display: none;">
+    <!-- Page Info -->
+    <div class="page-info">
+      <div class="page-url" id="page-url"></div>
+      <div class="page-meta" id="page-meta"></div>
+    </div>
+
+    <!-- Grade Display -->
+    <div class="grade-section">
+      <div class="grade-badge">
+        <div class="grade-letter" id="grade-letter">?</div>
+        <div class="grade-score" id="grade-score">--/100</div>
+      </div>
+      <div class="grade-info">
+        <div class="grade-label" id="grade-label">Analyzing...</div>
+        <div class="grade-description" id="grade-description"></div>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="section summary-section">
+      <div class="section-icon">📄</div>
+      <div class="section-title">Summary</div>
+      <p class="summary-text" id="summary-text"></p>
+    </div>
+
+    <!-- Red Flags -->
+    <div class="section red-flags-section" id="red-flags-section" style="display: none;">
+      <div class="section-header">
+        <span class="section-icon">⚠️</span>
+        <span class="section-title">Red Flags</span>
+        <span class="section-count" id="red-flags-count"></span>
+      </div>
+      <ul class="flags-list" id="red-flags-list"></ul>
+    </div>
+
+    <!-- Highlights -->
+    <div class="section highlights-section" id="highlights-section" style="display: none;">
+      <div class="section-header">
+        <span class="section-icon">✓</span>
+        <span class="section-title">Highlights</span>
+        <span class="section-count" id="highlights-count"></span>
+      </div>
+      <ul class="flags-list" id="highlights-list"></ul>
+    </div>
+
+    <!-- Feedback -->
+    <div class="feedback-section">
+      <p class="feedback-prompt">Was this analysis helpful?</p>
+      <div class="feedback-buttons">
+        <button id="btn-helpful-yes" class="btn-feedback btn-yes">
+          <span class="btn-icon">👍</span>
+          <span>Yes</span>
+        </button>
+        <button id="btn-helpful-no" class="btn-feedback btn-no">
+          <span class="btn-icon">👎</span>
+          <span>No</span>
+        </button>
+        <button id="btn-feedback-skip" class="btn-feedback btn-skip">Skip</button>
+      </div>
+      <div id="feedback-thanks" class="feedback-thanks" style="display: none;">
+        ✓ Thanks! Your feedback helps improve TOS Report Card.
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <!-- PDF export temporarily disabled for Chrome Web Store compliance
+      <button id="btn-export-pdf" class="btn-primary">
+        📄 Export as PDF
+      </button>
+      -->
+      <button id="btn-analyze-url" class="btn-secondary">
+        🔗 Analyze Another URL
+      </button>
+    </div>
+  </div>
+
+  <!-- Manual URL Input State -->
+  <div id="manual-input-state" class="state" style="display: none;">
+    <h3 class="manual-title">Analyze Any Legal Document</h3>
+    <p class="manual-description">Enter a URL to Terms of Service, Privacy Policy, or any legal agreement:</p>
+    <input type="url" id="manual-url-input" class="url-input" placeholder="https://example.com/terms" />
+    <div class="manual-buttons">
+      <button id="btn-manual-analyze" class="btn-primary">Analyze</button>
+      <button id="btn-manual-cancel" class="btn-secondary">Cancel</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+"></script>
+</body>
+</html>
