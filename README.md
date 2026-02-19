@@ -11,7 +11,7 @@ Stop blindly accepting terms you haven't read. TOS Report Card uses AI to analyz
 
 ## 🎯 Why This Exists
 
-Nobody reads Terms of Service—until it's too late. Legal documents filled with jargon protect companies, not users. Rights get waived, data gets sold, and people have no recourse because they "agreed" to something they never understood.
+Nobody reads Terms of Service until it's too late. Legal documents filled with jargon protect companies, not users. Rights get waived, data gets sold, and people have no recourse because they "agreed" to something they never understood.
 
 **TOS Report Card brings transparency to the fine print.** Built by someone who advises governments on responsible AI and procurement, this tool applies the same principles of clarity and accountability to the agreements we encounter every day online.
 
