@@ -62,7 +62,7 @@ The extension never stores your Anthropic API key. All AI requests are proxied t
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/tos-report-card.git
+   git clone https://github.com/eroyll/tos-report-card.git
    cd tos-report-card
    ```
 
@@ -121,7 +121,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/tos-report-card.git
+git clone https://github.com/eroyll/tos-report-card.git
 cd tos-report-card
 
 # Load extension in Chrome (see Installation section above)
@@ -167,14 +167,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 💬 Support & Feedback
 
 - **Website:** [tosreportcard.com](https://tosreportcard.com)
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/tos-report-card/issues)
-- **Email:** [your-email@example.com]
+- **Issues:** [GitHub Issues](https://github.com/eroyll/tos-report-card/issues)
+- **Email:** [tosreportcard@gmail.com]
 
 ---
 
 ## 🙏 Acknowledgments
 
-Built by [Emily Royall](https://www.linkedin.com/in/YOUR_PROFILE), a public-sector technology leader passionate about transparency, responsible AI, and digital rights.
+Built by [Emily Royall](https://www.linkedin.com/in/emilybroyall/), a public-sector technology leader passionate about transparency, responsible AI, and digital rights.
 
 Powered by [Claude AI](https://www.anthropic.com/) from Anthropic.
 
