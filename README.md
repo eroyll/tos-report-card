@@ -2,14 +2,14 @@
 
 **Instant A-F grades for Terms of Service and Privacy Policies.**
 
-Stop blindly accepting terms you haven't read. TOS Report Card uses AI to analyze any Terms of Service or Privacy Policy in seconds, giving you a clear letter grade, plain-language summary, red flags, and highlights—so you can make informed decisions before clicking "I Accept."
+Stop blindly accepting terms you haven't read. TOS Report Card uses AI to analyze any Terms of Service or Privacy Policy in seconds, giving you a clear letter grade, plain-language summary, red flags, and highlights so you can make informed decisions before clicking "I Accept."
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-brightgreen)](https://tosreportcard.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
 
-## 🎯 Why This Exists
+## Why This Exists
 
 Nobody reads Terms of Service until it's too late. Legal documents filled with jargon protect companies, not users. Rights get waived, data gets sold, and people have no recourse because they "agreed" to something they never understood.
 
@@ -17,7 +17,7 @@ Nobody reads Terms of Service until it's too late. Legal documents filled with j
 
 ---
 
-## ✨ Features
+## Features
 
 - **⚡ Instant Analysis** — Get results in 2 seconds
 - **🎯 A-F Letter Grades** — Know at a glance if terms are fair or predatory
@@ -25,11 +25,11 @@ Nobody reads Terms of Service until it's too late. Legal documents filled with j
 - **🚨 Red Flags** — Highlights concerning clauses that deserve attention
 - **✅ Highlights** — Shows positive terms that protect your rights
 - **🔒 100% Private** — Your data never leaves your device (except the TOS text sent to the AI API for analysis)
-- **🆓 Free Forever** — No account required, no paywall, no tracking
+- **🆓 100% Free ** — No account required, no paywall, no tracking
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 1. **User clicks the extension** on a page with Terms of Service
 2. **Extension extracts the text** from the webpage
@@ -50,7 +50,7 @@ The extension never stores your Anthropic API key. All AI requests are proxied t
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### From Chrome Web Store (Recommended)
 
@@ -76,7 +76,7 @@ The extension never stores your Anthropic API key. All AI requests are proxied t
 
 ---
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 **Your privacy matters.** Here's exactly what data is collected and how it's used:
 
@@ -93,7 +93,7 @@ The extension requests only the minimum permissions needed:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Whether you're fixing bugs, adding features, or improving documentation, your help makes this tool better for everyone.
 
@@ -117,7 +117,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 🏗️ Development Setup
+## Development Setup
 
 ```bash
 # Clone the repo
@@ -135,7 +135,7 @@ No build process required — this is vanilla JavaScript!
 
 ---
 
-## 📄 Tech Stack
+## Tech Stack
 
 - **Frontend:** Vanilla JavaScript, HTML, CSS
 - **AI Analysis:** Claude 3.5 Sonnet (Anthropic)
@@ -180,7 +180,7 @@ Powered by [Claude AI](https://www.anthropic.com/) from Anthropic.
 
 ---
 
-## ⭐ Like This Project?
+## Like This Project?
 
 If TOS Report Card helped you understand what you were agreeing to, consider:
 - ⭐ Starring this repo
